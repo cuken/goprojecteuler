@@ -37,6 +37,15 @@ func SieveOfEratosthenes(n int) []int {
 	return r
 }
 
+// Fibonacci Recursive Fibonacci sequence that calls a function that returns an int
+func Fibonacci() func() int {
+	x, y := 0, 1
+	return func() int {
+		x, y = y, x+y
+		return x
+	}
+}
+
 // TrackTime outputs the total time taken to execute the function
 func TrackTime(start time.Time, name string) {
 	elapsed := time.Since(start)
