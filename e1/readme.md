@@ -1,4 +1,4 @@
-# Problem 1
+# [Problem 1](https://projecteuler.net/problem=1)
 
 Multiples of 3 and 5
 
@@ -9,7 +9,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.`
 
 ## Thought Process
 
-Simpilest way to approach this is to itterate over i and check if `i % 3 == 0` or `i % 3 == 5`.
+Simpilest way to approach this is to itterate over `i` and check if `i % 3 == 0` or `i % 3 == 5`.
 If it is, add it to an int `sum` and return `sum` at the end.
 
 The problem only has us going to 1000, but for a much larger data set, we might want to look at some fun shortcuts to accomplish it.
@@ -17,7 +17,6 @@ The problem only has us going to 1000, but for a much larger data set, we might 
 ## Fun Times
 
 We can use basic number theory to determine if larger numbers are divisible by 3 or 5 without dividing the entire number.
-
 
 ### Divisible by 3
 
