@@ -31,7 +31,7 @@ I'm going to make a package that does simple functions that repeat for multiple 
 - [x] [Problem 1](/problems/e1)
 - [x] [Problem 2](/problems/e2)
 - [x] [Problem 3](/problems/e3)
-- [x] [Problem 4](/problems/e4)
+- [ ] [Problem 4](/problems/e4)
 
 ## Help
 

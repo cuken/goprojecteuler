@@ -26,6 +26,31 @@ func Test_IsPrimeSqrt(t *testing.T) {
 	}
 }
 
+func Test_ListOfPrimeFactors(t *testing.T) {
+	tests := []struct {
+		i int   //input
+		o []int //output
+	}{
+		{1, nil},
+		{2, []int{2}},
+		{4, []int{2, 2}},
+		{12, []int{2, 2, 3}},
+		{25, []int{5, 5}},
+	}
+	for _, test := range tests {
+		r := ListOfPrimeFactors(test.i)
+		if len(r) != len(test.o) {
+			t.Errorf("The number of primes returned for %d was incorrect, got: %v, want: %v", test.i, len(r), len(test.o))
+		} else {
+			for i := range r {
+				if r[i] != test.o[i] {
+					t.Errorf("The returned prime was incorrect, got: %v, want: %v", r[i], test.o[i])
+				}
+			}
+		}
+	}
+}
+
 func Test_SieveOfEratosthenes(t *testing.T) {
 	tests := []struct {
 		i int   // input
