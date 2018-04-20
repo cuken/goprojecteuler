@@ -10,7 +10,7 @@ import (
 func main() {
 
 	// Track the time required to execute our function
-	defer projectEulerHelper.TrackTime(time.Now(), "Problem 1")
+	defer projectEulerHelper.TrackTime(time.Now(), "Problem 2")
 
 	// Start our returning sum at 0
 	sum := 0

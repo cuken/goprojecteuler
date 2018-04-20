@@ -22,15 +22,16 @@ Each folder will have a document outlining the thought process and the corespond
 - Create crazy comments so others can learn, and I can review the thought process in the future.
 - Test? Maybe for the RFL.
 
-## [Project Euler Helper](/projectEulerHelper/readme.md)
+## [Project Euler Helper](/projectEulerHelper)
 
 I'm going to make a package that does simple functions that repeat for multiple problems. (e.g. Finding if a number is prime). 
 
 ## Problems Solved
 
-- [x] [Problem 1](/problems/e1/readme.md)
-- [x] [Problem 2](/problems/e2/readme.md)
-- [ ] [Problem 3](/problems/e3/readme.md)
+- [x] [Problem 1](/problems/e1)
+- [x] [Problem 2](/problems/e2)
+- [x] [Problem 3](/problems/e3)
+- [x] [Problem 4](/problems/e4)
 
 ## Help
 
