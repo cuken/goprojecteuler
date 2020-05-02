@@ -39,4 +39,4 @@ If you have any desire to help, or want to discuss a specific solution, please s
 Additionally, please take a look at the repetitive functions package that is used in the projects when needed. I'm sure a lot of the functions can be optimized.
 I would appreciate help in learning the "proper" go way of doing things, as well as a better mathematical methods of solving problems.
 
-Yay josh branch.
+Yay josh branch.!!!
